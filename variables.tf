@@ -39,7 +39,7 @@ variable "efa_appsegment_domain_names" {
     default = null
 }
 variable "efa_appsegment_segment_group_id" {
-    type = bool
+    type = number
     default = null
 }
 variable "efa_appsegment_server_groups_id" {
