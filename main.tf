@@ -9,7 +9,6 @@ resource "zpa_application_segment" "efa_appsegment" {
   tcp_port_ranges          = var.efa_appsegment_tcp_port_ranges
   domain_names             = var.efa_appsegment_domain_names
   segment_group_id         = var.efa_appsegment_segment_group_id
-  override_version_profile = var.efa_appsegment_override_version_profile
   server_groups {
     id = var.efa_appsegment_server_groups_id
   }
